@@ -2,6 +2,16 @@ public class Blowfish extends Fish
 {
     private String species;
 
+    public Blowfish()
+    {
+        super();
+    }
+
+    public Blowfish(String species)
+    {
+        this.species = species;
+    }
+
     public Blowfish(String name, int age, double weight, String scalesColor, String species)
     {
         super(name, age, weight, scalesColor);

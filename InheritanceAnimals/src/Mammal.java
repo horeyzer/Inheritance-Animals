@@ -2,7 +2,18 @@ public class Mammal extends Animal
 {
     public String furColor;
 
-    public Mammal(String name, int age, double weight, String furColor) {
+    public Mammal()
+    {
+        super();
+    }
+
+    public Mammal(String furColor)
+    {
+        this.furColor = furColor;
+    }
+
+    public Mammal(String name, int age, double weight, String furColor)
+    {
         super(name, age, weight);
         this.furColor = furColor;
     }

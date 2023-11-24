@@ -2,6 +2,16 @@ public class Dog extends Mammal
 {
     private String species;
 
+    public Dog()
+    {
+        super();
+    }
+
+    public Dog(String species)
+    {
+        this.species = species;
+    }
+
     public Dog(String name, int age, double weight, String furColor, String species) {
         super(name, age, weight, furColor);
         this.species = species;

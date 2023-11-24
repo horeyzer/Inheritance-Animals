@@ -2,6 +2,16 @@ public class Bird extends Animal
 {
     public String featherColor;
 
+    public Bird()
+    {
+        super();
+    }
+
+    public Bird(String featherColor)
+    {
+        this.featherColor = featherColor;
+    }
+
     public Bird(String name, int age, double weight, String featherColor)
     {
         super(name, age, weight);
