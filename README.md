@@ -1,6 +1,6 @@
 # Inheritance-Animals
 # # Part 1
-Please write a program which will use the inheritance process and the multi-level class hierarchy.
+A program which will use the inheritance process and the multi-level class hierarchy.
 The base class for all classes will be abstract Animal class, from which the following classes will be inherited: Mammal, Bird, Fish.
 The Mammal class will be the base class of the Dog parent class.
 The Fish class will be the base class for the Blowfish parent class.
@@ -12,7 +12,7 @@ Each class has accessors (get and set for its fields) and a toString() method.
 In the main class, we create an array of Animal reference and create all objects from our classes (using different designers). And then we call selected methods on individual indexes.
 
 # # Part 2
-Please use a program with multi-level class hierarchy that we created on previous labs (those one with Animal abstract class).
+Updated program with multi-level class hierarchy that we created on previous labs (those one with Animal abstract class).
 This time, we have to add to this program three interfaces:
 First: AnimalBehavior with one „normal” interface method called sleep().
 This interface should implement classes in lover place in our hierarchy, so Dog, Pigeon and Blowfish – so in these classes we create some implementation of method sleep(). Than we create an array of AnimalBehavior reference and create objects from our three supclasses. And then we call methos sleep() on indivdual indexes.
